@@ -1,14 +1,34 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "claimantId": 1,
+    "ssn": "123456789",
+    "dateOfBirth": "1999-01-01",
+    "firstName": "string",
+    "middleInitial": "C",
+    "lastName": "string",
+    "homePhone": "string",
+    "mobilePhone": "string",
+    "languagePreference": "string",
+    "educationLevel": "string",
+    "gender": "string",
+    "race": "string",
+    "ethnicity": "string",
+    "lastInsertUpdateTS": "2019-06-10T08:44:30-05:00",
+    "lastInsertUpdateBy": "string",
+    "ivrPin": "string",
+    "documentDeliveryPreference": "string",
+    "address": [
+      {
+        "id": 1,
+        "addressLine1": "string",
+        "addressLine2": "string",
+        "state": "string",
+        "city": "string",
+        "zipCode": "string",
+        "zipExt": "string",
+        "lastInsertUpdateTS": "2019-06-10T08:44:30-05:00",
+        "lastInsertUpdateBy": "string"
+      }
+    ]
   }
-}
+]
